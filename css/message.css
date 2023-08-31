@@ -1,0 +1,141 @@
+body{
+    background: url(../images/message/message_bg.png) no-repeat;
+}
+.message {
+    margin-bottom:50px;
+    margin-top: 120px;
+    background: rgba(255, 255, 255, .7);
+    position: relative;
+    z-index: 2
+}
+
+.message .message_box {
+    width: 670px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.message_box h3{
+    font-family: 楷体;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.message_box .form-group {
+    margin-bottom: 35px;
+
+}
+
+.message_box .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form_control {
+    padding: 7px;
+    line-height: 1.5;
+    width: 203px;
+}
+
+.div_input {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form_input {
+    background: #fff;
+    display: block;
+    width: 203px;
+    height: 38px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 0;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form_input::placeholder {
+    color: #b9b9b9;    
+    font-size: 12px; 
+}
+
+.form_label {
+    padding-top: calc(0.375rem + 1px);
+    padding-bottom: calc(0.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+#address {
+    width: 516px;
+}
+
+.div_input textarea {
+    width: 516px;
+    height: 200px;
+    overflow: auto;
+    resize: vertical;
+}
+
+.submit {
+    float: right;
+    padding: 8px 40px;
+    background: #731b1a;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.message .details {
+    width: 670px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.message .details h4{
+    font-size: 16px;
+    color: #a74615;
+    margin-bottom: 30px;
+}
+
+.message .details li {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.message .details li a {
+    float: right;
+    font-size: 14px;
+    color: #d10300;
+}
+
+.message .details #msg_title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6bb70;
+}
+
+.message .details #msg_content {
+    padding: 10px 0;
+    font-size: 14px;
+    text-indent: 2rem;
+}
+
+.message .details .personal {
+    float: right;
+    font-size: 14px;
+}
+
+.message .details .personal span {
+    color: #a1a1a1;
+    font-size: 12px;
+}

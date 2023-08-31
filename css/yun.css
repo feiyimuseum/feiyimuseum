@@ -1,0 +1,94 @@
+.yun {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.yun .exh_list .exh_view {
+    float: left;
+    width: 580px;
+    margin: 0 10px;
+    padding: 0 5px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border .2s ease-in-out;
+}
+
+.exh_list .exh_view a {
+    display: block;
+    border: 1px solid #eee;
+}
+
+.exh_list .exh_view .pic {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.exh_list .exh_view .pic img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.exh_list .exh_view .pic img:hover {
+    transform: scale(1.1);
+}
+
+.exh_list .exh_view .caption {
+    padding: 10px;
+    text-align: left;
+    background: url(../images/yunexhibition/caption_bg.png) no-repeat 100% 0;
+    background-size: 10%;
+}
+
+
+.yun .exh_list .exh_view a:hover {
+    color: #fff;
+    background: #07458e url(../images/yunexhibition/caption_bg1.png) no-repeat 100% 0;
+    background-size: 10%;
+}
+
+.exh_list .exh_view .caption h5 {
+    padding: 2px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.exh_list .exh_view .caption p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.exh_list .exh_view .caption span {
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.exh_list .pic .vr-href {
+    display: block;
+    width: 100%;
+    background: linear-gradient(90deg,rgba(7,69,142,.7) 20%,rgba(7,69,142,.1));
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 8px 0;
+    text-align: left;
+}
+
+.exh_list .pic .vr-href p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.exh_list .pic .vr-href p img {
+    padding: 0 10px 0 20px;
+    height: 25px;
+}
